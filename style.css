@@ -1,0 +1,125 @@
+  @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url("bg.jpg");
+      background-size: cover;
+    }
+
+    .to_do {
+      width: 60%;
+      /* border: 5px solid gold; */
+      /* border-radius: 30px 30px 0px 0px; */
+    }
+
+    @media (max-width:768px) {
+      .to_do {
+        width: 90%;
+      }
+    }
+
+    .to_do h1 {
+      color: gray;
+      font-size: 50px;
+      padding: 10px 0;
+      text-align: center;
+      /* border-radius: 30px 30px 0px 0px; */
+      background-color: blue;
+      /* background-image: linear-gradient(red,rgb(0, 0, 255)); */
+      opacity: 0.8;
+      font-family: "Rajdhani", sans-serif;
+    }
+
+    .to_do form {
+      /* display: flex; */
+      width: 100%;
+      background-color:#33df19;
+    }
+
+    .to_do form input {
+      text-align: center;
+      border: 3px solid black;
+      /* background-color: lightgreen; */
+      font-size: 18px;
+      color: rgb(5, 0, 0);
+      padding: 10px;
+      width: 100%;
+    }
+    
+
+    .to_do form button {
+      border: none;
+      color: rgb(20, 2, 2);
+      font-size: 25px;
+      font-weight: 600;
+      height: 42px;
+      width: 100%;
+    }
+    
+
+    .to_do ul {
+      list-style: none;
+      color: #fffdfd;
+      padding: 0;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .to_do ul li {
+      padding: 10px;
+      background-color: #ff0909;
+      border-bottom: 1px solid #3a4674;
+    }
+
+    .check {
+      width: 0.9em;
+      height: 0.8em;
+      cursor: pointer;
+      border-radius: 50%;
+      background-color: white;
+      border: 1px solid rgb(255, 255, 255);
+      
+    }
+
+    .check:checked {
+      background-color: #1dd2af;
+    }
+
+    .task {
+      font-size: 18px;
+      padding: 0 10px;
+      width: fit-content;
+      background: transparent;
+      border: none;
+      color: #fff;
+    }
+
+    .task:focus {
+      outline: none;
+    }
+
+    .to_do ul li i {
+      float: right;
+      cursor: pointer;
+    }
+
+    .to_do ul li i:hover {
+      color: #5258ff;
+    }
+
+    .completed {
+      background-color: li;
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: line-through;
+      font-size:20px;
+    }
