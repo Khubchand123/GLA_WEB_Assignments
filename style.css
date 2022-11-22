@@ -19,8 +19,7 @@
 
     .to_do {
       width: 60%;
-      /* border: 5px solid gold; */
-      /* border-radius: 30px 30px 0px 0px; */
+      margin-top: 6.5vh;
     }
 
     @media (max-width:768px) {
@@ -34,15 +33,12 @@
       font-size: 50px;
       padding: 10px 0;
       text-align: center;
-      /* border-radius: 30px 30px 0px 0px; */
       background-color: blue;
-      /* background-image: linear-gradient(red,rgb(0, 0, 255)); */
       opacity: 0.8;
       font-family: "Rajdhani", sans-serif;
     }
 
     .to_do form {
-      /* display: flex; */
       width: 100%;
       background-color:#33df19;
     }
